@@ -13,6 +13,20 @@ const variations = [
     color: 'bg-blue-600'
   },
   {
+    id: 'v2',
+    name: 'Modern',
+    description: 'Contemporary design with gradient backgrounds',
+    icon: CubeIcon,
+    color: 'bg-green-600'
+  },
+  {
+    id: 'v3',
+    name: 'Minimalist',
+    description: 'Clean and simple card-based layout',
+    icon: NewspaperIcon,
+    color: 'bg-purple-600'
+  },
+  {
     id: 'v4',
     name: 'Dashboard',
     description: 'Data-driven dashboard with dark theme',
@@ -51,12 +65,12 @@ export default function VariationsController() {
             Homepage Variations
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Explore two distinct design approaches for the SPPP website.
+            Explore four distinct design approaches for the SPPP website.
             Select a variation below to experience unique layouts and styles.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-12 max-w-4xl mx-auto">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12 max-w-6xl mx-auto">
           {variations.map((variation) => {
             const Icon = variation.icon
             const isSelected = selectedVariation === variation.id
