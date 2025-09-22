@@ -1,0 +1,40 @@
+{
+  "title": "Cargo Throughput",
+  "unit": "Metric Tons",
+  "description": "Total cargo handled at SPPP facilities",
+  "data": [
+    {
+      "year": "2021",
+      "import": 15931915,
+      "export": 12802823,
+      "transhipment": 443978,
+      "total": 29178716
+    },
+    {
+      "year": "2022",
+      "import": 16160679,
+      "export": 13502975,
+      "transhipment": 488957,
+      "total": 30152611
+    },
+    {
+      "year": "2023",
+      "import": 17496620,
+      "export": 14147345,
+      "transhipment": 443622,
+      "total": 32087587
+    },
+    {
+      "year": "2024",
+      "import": 17908875,
+      "export": 14028052,
+      "transhipment": 396339,
+      "total": 32333266
+    }
+  ],
+  "latest": {
+    "year": 2024,
+    "total": 32333266,
+    "growth": "1.0%"
+  }
+}

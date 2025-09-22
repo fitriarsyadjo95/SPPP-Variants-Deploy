@@ -1,0 +1,539 @@
+/* Minimalist Variation (V2) Custom Styles */
+.minimalist-variation {
+  scroll-behavior: smooth;
+  /* Use the same font as the main site */
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.minimalist-variation * {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.minimalist-variation h1,
+.minimalist-variation h2,
+.minimalist-variation h3,
+.minimalist-variation h4,
+.minimalist-variation h5,
+.minimalist-variation h6 {
+  font-family: Poppins, system-ui, sans-serif;
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.minimalist-variation p,
+.minimalist-variation span,
+.minimalist-variation div {
+  font-family: Inter, system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+.minimalist-variation .font-thin {
+  font-weight: 300 !important;
+}
+
+.minimalist-variation .font-light {
+  font-weight: 400 !important;
+}
+
+.minimalist-variation .font-medium {
+  font-weight: 500 !important;
+}
+
+.minimalist-variation .font-bold {
+  font-weight: 600 !important;
+}
+
+.minimalist-variation section {
+  position: relative;
+}
+
+.minimalist-variation section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1), transparent);
+  transform: translateX(-50%);
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+/* Typography Hierarchy Improvements */
+.minimalist-variation .text-7xl,
+.minimalist-variation .text-8xl,
+.minimalist-variation .text-9xl {
+  font-weight: 300 !important;
+  letter-spacing: -0.03em;
+}
+
+.minimalist-variation .text-4xl,
+.minimalist-variation .text-5xl,
+.minimalist-variation .text-6xl {
+  font-weight: 400 !important;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.minimalist-variation .text-xl,
+.minimalist-variation .text-2xl,
+.minimalist-variation .text-3xl {
+  font-weight: 400 !important;
+  line-height: 1.4;
+}
+
+.minimalist-variation .text-lg {
+  font-size: 1.125rem !important;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.minimalist-variation .text-base {
+  font-size: 1rem !important;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.minimalist-variation .text-sm {
+  font-size: 0.875rem !important;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.minimalist-variation .text-xs {
+  font-size: 0.75rem !important;
+  line-height: 1.4;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Responsive Design for Minimalist */
+@media (max-width: 768px) {
+  .minimalist-variation h1 {
+    font-size: 4rem !important;
+  }
+
+  .minimalist-variation .text-6xl {
+    font-size: 3rem !important;
+  }
+
+  .minimalist-variation .text-5xl {
+    font-size: 2.5rem !important;
+  }
+
+  .minimalist-variation .text-4xl {
+    font-size: 2rem !important;
+  }
+
+  .minimalist-variation .text-3xl {
+    font-size: 1.75rem !important;
+  }
+
+  .minimalist-variation .text-2xl {
+    font-size: 1.5rem !important;
+  }
+
+  .minimalist-variation .text-xl {
+    font-size: 1.25rem !important;
+  }
+
+  .minimalist-variation .py-32 {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+  }
+
+  .minimalist-variation .grid {
+    gap: 1rem !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .minimalist-variation .grid-cols-2 {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+
+  .minimalist-variation .md\\:grid-cols-3 {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+
+  .minimalist-variation .lg\\:grid-cols-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
+  .minimalist-variation .text-9xl,
+  .minimalist-variation .text-8xl,
+  .minimalist-variation .text-7xl {
+    font-size: 3rem !important;
+  }
+}
+
+/* Editorial Variation (V3) Custom Styles */
+.editorial-variation {
+  /* Use the same font as the main site */
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.editorial-variation h1,
+.editorial-variation h2,
+.editorial-variation h3,
+.editorial-variation h4,
+.editorial-variation h5,
+.editorial-variation h6 {
+  font-family: Poppins, system-ui, sans-serif;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.editorial-variation p,
+.editorial-variation span,
+.editorial-variation div,
+.editorial-variation li {
+  font-family: Inter, system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+.editorial-variation .prose {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: #1a1a1a;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.editorial-variation .prose p {
+  margin-bottom: 1.5rem;
+  text-align: left;
+  hyphens: none;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.editorial-variation .font-serif {
+  font-family: Poppins, system-ui, sans-serif !important;
+  font-weight: 600;
+}
+
+/* Better readability for small text */
+.editorial-variation .text-xs {
+  font-size: 0.75rem !important;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+}
+
+.editorial-variation .text-sm {
+  font-size: 0.875rem !important;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.editorial-variation .text-base {
+  font-size: 1rem !important;
+  line-height: 1.6;
+}
+
+.editorial-variation article {
+  position: relative;
+}
+
+.editorial-variation article:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+/* Newspaper Grid Effect */
+.editorial-variation .newspaper-grid {
+  column-count: 3;
+  column-gap: 2rem;
+  column-rule: 1px solid #e5e5e5;
+}
+
+/* Editorial Typography Hierarchy */
+.editorial-variation .text-8xl {
+  font-size: 5rem !important;
+  font-weight: 700 !important;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.editorial-variation .text-5xl {
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.editorial-variation .text-2xl {
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  line-height: 1.3;
+}
+
+.editorial-variation .text-xl {
+  font-size: 1.25rem !important;
+  font-weight: 500 !important;
+  line-height: 1.4;
+}
+
+.editorial-variation .text-lg {
+  font-size: 1.125rem !important;
+  font-weight: 400 !important;
+  line-height: 1.6;
+}
+
+/* Responsive Design for Editorial */
+@media (max-width: 1024px) {
+  .editorial-variation .newspaper-grid {
+    column-count: 2;
+  }
+
+  .editorial-variation .text-8xl {
+    font-size: 4rem !important;
+  }
+
+  .editorial-variation .text-5xl {
+    font-size: 2.5rem !important;
+  }
+
+  .editorial-variation .text-2xl {
+    font-size: 1.375rem !important;
+  }
+
+  .editorial-variation .lg\\:col-span-3 {
+    grid-column: span 1 !important;
+  }
+
+  .editorial-variation .lg\\:col-span-1 {
+    grid-column: span 1 !important;
+  }
+
+  .editorial-variation .lg\\:grid-cols-4 {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .editorial-variation .newspaper-grid {
+    column-count: 1;
+  }
+
+  .editorial-variation .text-8xl {
+    font-size: 3rem !important;
+  }
+
+  .editorial-variation .text-5xl {
+    font-size: 2rem !important;
+  }
+
+  .editorial-variation .text-2xl {
+    font-size: 1.25rem !important;
+  }
+
+  .editorial-variation .text-xl {
+    font-size: 1.125rem !important;
+  }
+
+  .editorial-variation .text-lg {
+    font-size: 1rem !important;
+  }
+
+  .editorial-variation .py-12 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .editorial-variation .md\\:grid-cols-2 {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+
+  .editorial-variation .md\\:grid-cols-3 {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+
+  .editorial-variation .md\\:grid-cols-5 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .editorial-variation .text-8xl {
+    font-size: 2.5rem !important;
+  }
+
+  .editorial-variation .text-5xl {
+    font-size: 1.75rem !important;
+  }
+
+  .editorial-variation .text-2xl {
+    font-size: 1.125rem !important;
+  }
+
+  .editorial-variation .text-xl {
+    font-size: 1rem !important;
+  }
+
+  .editorial-variation .grid-cols-7 {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+
+  .editorial-variation .grid-cols-7 > div {
+    grid-column: span 1 !important;
+  }
+
+  .editorial-variation .h-96 {
+    height: 16rem !important;
+  }
+
+  .editorial-variation .prose {
+    font-size: 1rem !important;
+  }
+
+  .editorial-variation .first-letter\\:text-7xl::first-letter {
+    font-size: 2.5rem !important;
+  }
+
+  /* Better spacing on mobile */
+  .editorial-variation .px-4 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .editorial-variation .space-y-8 > * + * {
+    margin-top: 1.5rem !important;
+  }
+
+  .editorial-variation .space-y-4 > * + * {
+    margin-top: 1rem !important;
+  }
+}
+
+/* Custom Scrollbar for Editorial */
+.editorial-variation::-webkit-scrollbar {
+  width: 12px;
+}
+
+.editorial-variation::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.editorial-variation::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 0;
+}
+
+.editorial-variation::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Minimalist Scrollbar */
+.minimalist-variation::-webkit-scrollbar {
+  width: 4px;
+}
+
+.minimalist-variation::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.minimalist-variation::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+
+/* Print-like styles for Editorial */
+@media print {
+  .editorial-variation {
+    font-size: 10pt;
+    line-height: 1.3;
+  }
+
+  .editorial-variation h1 {
+    font-size: 24pt;
+  }
+
+  .editorial-variation h2 {
+    font-size: 18pt;
+  }
+
+  .editorial-variation h3 {
+    font-size: 14pt;
+  }
+}
+
+/* Hover Effects for Minimalist */
+.minimalist-variation [class*="hover:"]:hover {
+  transform: translateY(-2px);
+}
+
+/* General Text Improvements */
+.minimalist-variation p,
+.editorial-variation p {
+  color: #374151;
+}
+
+.minimalist-variation .text-gray-600,
+.editorial-variation .text-gray-600 {
+  color: #4B5563 !important;
+}
+
+.minimalist-variation .text-gray-700,
+.editorial-variation .text-gray-700 {
+  color: #374151 !important;
+}
+
+.minimalist-variation .text-gray-800,
+.editorial-variation .text-gray-800 {
+  color: #1F2937 !important;
+}
+
+.minimalist-variation .text-gray-900,
+.editorial-variation .text-gray-900 {
+  color: #111827 !important;
+}
+
+/* Drop Cap for Editorial */
+.editorial-variation .drop-cap::first-letter {
+  float: left;
+  font-size: 4rem;
+  line-height: 3rem;
+  padding-right: 0.5rem;
+  margin-top: -0.5rem;
+  font-weight: bold;
+  font-family: Poppins, sans-serif;
+}
+
+/* Better button and interactive text */
+.minimalist-variation button,
+.editorial-variation button {
+  font-family: Inter, system-ui, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+}
+
+/* Improved contrast for better readability */
+.minimalist-variation .text-white,
+.editorial-variation .text-white {
+  color: #ffffff !important;
+}
+
+.minimalist-variation .opacity-60,
+.editorial-variation .opacity-60 {
+  opacity: 0.75 !important;
+}
+
+.minimalist-variation .opacity-70,
+.editorial-variation .opacity-70 {
+  opacity: 0.85 !important;
+}
+
+.minimalist-variation .opacity-80,
+.editorial-variation .opacity-80 {
+  opacity: 0.9 !important;
+}
+
+/* Parallax Effect for Minimalist Hero */
+.minimalist-variation .parallax {
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}

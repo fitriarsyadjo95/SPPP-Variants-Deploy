@@ -1,0 +1,40 @@
+{
+  "title": "Container Throughput",
+  "unit": "TEU",
+  "description": "Container traffic in Twenty-foot Equivalent Units",
+  "data": [
+    {
+      "year": "2021",
+      "import": 608460,
+      "export": 605504,
+      "transhipment": 64042,
+      "total": 1278006
+    },
+    {
+      "year": "2022",
+      "import": 620267,
+      "export": 602315,
+      "transhipment": 77358,
+      "total": 1299940
+    },
+    {
+      "year": "2023",
+      "import": 670049,
+      "export": 690104,
+      "transhipment": 83353,
+      "total": 1443506
+    },
+    {
+      "year": "2024",
+      "import": 661686,
+      "export": 685327,
+      "transhipment": 69437,
+      "total": 1416450
+    }
+  ],
+  "latest": {
+    "year": 2024,
+    "total": 1416450,
+    "growth": "-1.9%"
+  }
+}

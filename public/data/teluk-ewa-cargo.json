@@ -1,0 +1,36 @@
+{
+  "title": "Teluk Ewa Cargo Throughput",
+  "unit": "Metric Tons",
+  "description": "Cargo handled at Teluk Ewa facility",
+  "data": [
+    {
+      "year": "2021",
+      "import": 436766,
+      "export": 1920187,
+      "total": 2356953
+    },
+    {
+      "year": "2022",
+      "import": 406498,
+      "export": 1703491,
+      "total": 2109989
+    },
+    {
+      "year": "2023",
+      "import": 451395,
+      "export": 1479930,
+      "total": 1931325
+    },
+    {
+      "year": "2024",
+      "import": 358430,
+      "export": 1644852,
+      "total": 2003282
+    }
+  ],
+  "latest": {
+    "year": 2024,
+    "total": 2003282,
+    "growth": "3.7%"
+  }
+}

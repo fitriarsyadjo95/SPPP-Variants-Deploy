@@ -1,0 +1,36 @@
+{
+  "title": "Ferry Services",
+  "unit": "Passengers",
+  "description": "Ferry passenger traffic between Penang Island and mainland",
+  "data": [
+    {
+      "year": "2021",
+      "motorcycle": 302423,
+      "pedestrian": 499408,
+      "total": 801831
+    },
+    {
+      "year": "2022",
+      "motorcycle": 359972,
+      "pedestrian": 1182150,
+      "total": 1542122
+    },
+    {
+      "year": "2023",
+      "motorcycle": 303789,
+      "pedestrian": 1900009,
+      "total": 2203798
+    },
+    {
+      "year": "2024",
+      "motorcycle": 737132,
+      "pedestrian": 2125834,
+      "total": 2862966
+    }
+  ],
+  "latest": {
+    "year": 2024,
+    "total": 2862966,
+    "growth": "29.9%"
+  }
+}

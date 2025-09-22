@@ -1,0 +1,48 @@
+{
+  "title": "Cargo by Commodity Type",
+  "unit": "Metric Tons",
+  "description": "Breakdown of cargo by commodity categories",
+  "data": [
+    {
+      "year": "2021",
+      "breakbulk": 1213190,
+      "containerised": 21328577,
+      "dryBulk": 2920996,
+      "liquidBulk": 3715953,
+      "total": 29178716
+    },
+    {
+      "year": "2022",
+      "breakbulk": 1181800,
+      "containerised": 21149160,
+      "dryBulk": 3500702,
+      "liquidBulk": 4320949,
+      "total": 30152611
+    },
+    {
+      "year": "2023",
+      "breakbulk": 1395543,
+      "containerised": 23182715,
+      "dryBulk": 3293656,
+      "liquidBulk": 4215673,
+      "total": 32087587
+    },
+    {
+      "year": "2024",
+      "breakbulk": 1882866,
+      "containerised": 22837365,
+      "dryBulk": 3269303,
+      "liquidBulk": 4343732,
+      "total": 32333266
+    }
+  ],
+  "latest": {
+    "year": 2024,
+    "breakdown": {
+      "containerised": 70.6,
+      "liquidBulk": 13.4,
+      "dryBulk": 10.1,
+      "breakbulk": 5.8
+    }
+  }
+}
