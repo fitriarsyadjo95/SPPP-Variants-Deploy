@@ -7,29 +7,29 @@ import { HomeIcon, CubeIcon, NewspaperIcon, ComputerDesktopIcon } from '@heroico
 const variations = [
   {
     id: 'v1',
-    name: 'Original',
-    description: 'Traditional government website layout',
+    name: 'Asal',
+    description: 'Reka bentuk tradisional laman web kerajaan dengan komponen modular',
     icon: HomeIcon,
     color: 'bg-blue-600'
   },
   {
     id: 'v2',
-    name: 'Modern',
-    description: 'Contemporary design with gradient backgrounds',
+    name: 'Moden',
+    description: 'Reka bentuk kontemporari dengan latar belakang berputar dan bahagian berasaskan imej',
     icon: CubeIcon,
-    color: 'bg-green-600'
-  },
-  {
-    id: 'v3',
-    name: 'Minimalist',
-    description: 'Clean and simple card-based layout',
-    icon: NewspaperIcon,
     color: 'bg-purple-600'
   },
   {
+    id: 'v3',
+    name: 'Editorial',
+    description: 'Gaya majalah dengan bahagian berita, statistik, dan susunan akhbar',
+    icon: NewspaperIcon,
+    color: 'bg-orange-600'
+  },
+  {
     id: 'v4',
-    name: 'Dashboard',
-    description: 'Data-driven dashboard with dark theme',
+    name: 'Papan Pemuka',
+    description: 'Papan pemuka berasaskan data dengan tema gelap dan antara muka teknikal',
     icon: ComputerDesktopIcon,
     color: 'bg-gray-800'
   }
@@ -62,11 +62,11 @@ export default function VariationsController() {
       <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Homepage Variations
+            Variasi Laman Utama
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Explore four distinct design approaches for the SPPP website.
-            Select a variation below to experience unique layouts and styles.
+            Terokai empat pendekatan reka bentuk yang berbeza untuk laman web SPPP.
+            Pilih variasi di bawah untuk mengalami susunan dan gaya yang unik.
           </p>
         </div>
 
@@ -101,7 +101,7 @@ export default function VariationsController() {
                   {isSelected && (
                     <div className="flex items-center space-x-2 bg-green-100 px-3 py-1 rounded-full">
                       <div className="h-2 w-2 bg-green-500 rounded-full animate-pulse" />
-                      <span className="text-xs font-medium text-green-700">Active</span>
+                      <span className="text-xs font-medium text-green-700">Aktif</span>
                     </div>
                   )}
                 </div>
@@ -138,22 +138,22 @@ export default function VariationsController() {
                     d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
                   />
                 </svg>
-                Loading...
+                Memuatkan...
               </>
             ) : (
-              `View ${variations.find(v => v.id === selectedVariation)?.name} Design`
+              `Lihat Reka Bentuk ${variations.find(v => v.id === selectedVariation)?.name}`
             )}
           </button>
         </div>
 
         <div className="mt-12 p-6 bg-blue-50 rounded-lg">
           <h2 className="text-lg font-semibold text-gray-900 mb-2">
-            About Homepage Variations
+            Mengenai Variasi Laman Utama
           </h2>
           <p className="text-gray-700">
-            This showcase presents two distinct design approaches for the SPPP website,
-            each maintaining the same content but with unique visual styles and layouts.
-            Your selection is saved and will persist across sessions.
+            Paparan ini mempersembahkan empat pendekatan reka bentuk yang berbeza untuk laman web SPPP,
+            setiap satu mengekalkan kandungan yang sama tetapi dengan gaya visual dan susunan yang unik.
+            Pilihan anda akan disimpan dan berterusan merentas sesi.
           </p>
         </div>
       </div>
